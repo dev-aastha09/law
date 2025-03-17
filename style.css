@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    height: 180px;
+}
+
+.logo{
+    margin-left: 200px;
+    padding: 10px;
+}
+.logo img{
+    height: 160px;
+}
+
+.navbar{
+    display: flex;
+    padding: 80px;
+    column-gap: 30px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #954a39;
+    font-weight: 1000px;
+}
+
+.ctasection{
+    background-image: url("/images/klawhomebanner1.jpg");
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+h1{
+    color: aliceblue;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+h2{
+    color: aliceblue;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 200px;
+}
